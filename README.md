@@ -70,4 +70,4 @@ To download the compiled code onto the development kit:
 1. Confirm the settings in the **Tools** menu is as stated above
 1. Confirm the correct port is selected in **Tools -> Port**
 1. Press the *Upload* button in the Arduino IDE.
-1. Repeatedly press and release **the middle button** until the download starts.
+1. **Press and release the middle button repeatedly** until the download starts.
