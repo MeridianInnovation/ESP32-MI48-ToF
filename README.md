@@ -27,7 +27,7 @@ By default, the Arduino IDE does not support ESP32-based platforms. Some configu
 1. In the *Preferences* window, enter "https://dl.espressif.com/dl/package_esp32_index.json" into the *Additional Boards Manager URLs* textbox.
 1. Press *OK* to close the *Preferences* window.
 1. Select **Tools -> Board: -> Board Manager...**
-1. In the *Boards Manager* window, enter "esp32" into the *Filter your search...* textbox.
+1. In the *Boards Manager* window, enter *esp32* into the *Filter your search...* textbox.
 1. Select the option for **esp32 by Espressif Systems**. Install **version 1.0.2** of this board package.
 1. After the installation finishes, press *Close* to close the Boards Manager window.
 1. In the Arduino IDE, select:
@@ -39,11 +39,11 @@ By default, the Arduino IDE does not support ESP32-based platforms. Some configu
 
 The VL53L1X Laser Ranging Time-of-Flight (ToF) Distance Measurement Sensor is developed by [ST Microelectronics](https://www.st.com/en/imaging-and-photonics-solutions/vl53l1x.html).
 
-All code in this repository is based on this driver:https://github.com/pololu/vl53l1x-arduino
+All code in this repository is based on this driver: https://github.com/pololu/vl53l1x-arduino
 
 To setup the driver:
-1. In the Arduino IDE, select **Sketch -> Include Library -> Manage Libraries".
-1. In the *Library Manager*, enter "VL53L1X" into the *Filter your search...* textbox.
+1. In the Arduino IDE, select **Sketch -> Include Library -> Manage Libraries"**.
+1. In the *Library Manager*, enter *VL53L1X* into the *Filter your search...* textbox.
 1. Select the option for **VL53L1X by Pololu**. Install **version 1.0.1** of this library.
 1. After the installation finishes, press *Close* to close the *Library Manager* window.
 
@@ -53,7 +53,7 @@ All code in this repository is based on this driver: https://github.com/Bodmer/T
 
 To setup the driver:
 1. In the Arduino IDE, select **Sketch -> Include Library -> Manage Libraries".
-1. In the *Library Manager*, enter "TFT_eSPI" into the *Filter your search...* textbox.
+1. In the *Library Manager*, enter *TFT_eSPI* into the *Filter your search...* textbox.
 1. Select the option for **TFT_eSPI by Bodmer**. Install **version 1.4.20** of this library.
 1. After the installation finishes, press *Close* to close the *Library Manager* window.
 
