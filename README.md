@@ -63,6 +63,10 @@ After the above steps, the configuration of the Arduino IDE is finished.
 
 To import the Arduino code into the Arduino IDE, select **File -> Open...** then select whichever file with suffix *.ino* in the file dialog.
 
+Note that `User_Setup.h` is not directly `#include`'d by the code, but by the `TFT_eSPI` library. Follow the steps below:
+1. Make a backup of the default `User_Setup.h` file from the `TFT_eSPI` library, which (by default for Windows) is located at `C:\Users\%USER%\Documents\Arduino\libraries\TFT_eSPI\User_Setup.h`
+1. Copy the `User_Setup.h` into the above location
+
 To compile the code, press *Verify* button in the Arduino IDE. It is located in the top left with a "tick" symbol.
 
 To download the compiled code onto the development kit:
